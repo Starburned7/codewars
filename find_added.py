@@ -9,3 +9,5 @@ def find_added(st1, st2):
     return result
 
 find_added('4455446', '447555446666')
+
+#     return ''.join(sorted( [i * (st2.count(i) - st1.count(i)) for i in set(st2)] ))
